@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=4[camembert,filtered]
+#SBATCH --output=/mnt/beegfs/projects/interpretable-nn/deep_synt/2020-04-18_21:39:04.440085/4[camembert,filtered]/out
+#SBATCH --error=/mnt/beegfs/projects/interpretable-nn/deep_synt/2020-04-18_21:39:04.440085/4[camembert,filtered]/err
+#SBATCH --gres=gpu:1
+#SBATCH --time=10:00:00
+#SBATCH --ntasks=1
+#SBATCH --exclude=n[1-5]
+python /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/train.py --word-embs  --word-embs-dim 300 --char-embs-dim 50 --train /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/train.conll --dev /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/dev.conll --model /mnt/beegfs/projects/interpretable-nn/deep_synt/2020-04-18_21:39:04.440085/4[camembert,filtered]/model --device cuda:0 --epochs 200 --batch-clusters 32 --batch 5000 --optim adam --optim-adam-b1 0.9 --optim-adam-b2 0.9 --optim-adam-eps 1e-12 --optim-lr-scheduler exponential --optim-lr-scheduler-decay 0.75 --optim-lr-scheduler-step 5000 --optim-lr 2e-3 --clip-grad 100 --char-lstm-boundaries  --lstm-layers 3 --lstm-dim 400 --bert-start-features  --bert-cache /mnt/beegfs/home/corro/parsiti/caio/transformers-cache --bert-mix-layers 4-7 --lstm-dropout 0.33 --mlp-dropout 0.33 --span-proj-dim 500 --label-proj-dim 100 --dropout-features 0.33 --max-word-len 20 --bert  --bert-model camembert-base --bert-tokenizer camembert-base --ensure-connected 

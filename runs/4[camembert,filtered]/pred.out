@@ -1,0 +1,142 @@
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/full.full.conll
+Evaluation with algorithm: simple
+ - precision: 89.10
+ - recall: 85.38
+ - f1: 87.20
+ - exact match: 21.32
+ - network timing: 55.04 sec
+ - decoder timing: 20.24 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 88.19
+ - recall: 86.04
+ - f1: 87.10
+ - exact match: 22.34
+ - network timing: 56.22 sec
+ - decoder timing: 1352.41 sec
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+89.10	85.37	87.20	92.19	88.45	90.28
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+88.19	86.03	87.10	91.28	89.17	90.21
+
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/full.connected.conll
+Evaluation with algorithm: simple
+ - precision: 89.46
+ - recall: 85.77
+ - f1: 87.57
+ - exact match: 22.36
+ - network timing: 52.06 sec
+ - decoder timing: 19.98 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 88.59
+ - recall: 86.41
+ - f1: 87.49
+ - exact match: 23.43
+ - network timing: 53.15 sec
+ - decoder timing: 1336.89 sec
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+89.46	85.76	87.57	92.56	88.86	90.67
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+88.59	86.41	87.49	91.69	89.56	90.61
+
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/ftb.full.conll
+Evaluation with algorithm: simple
+ - precision: 88.83
+ - recall: 85.07
+ - f1: 86.91
+ - exact match: 18.93
+ - network timing: 48.46 sec
+ - decoder timing: 17.13 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 87.89
+ - recall: 85.74
+ - f1: 86.80
+ - exact match: 19.83
+ - network timing: 49.67 sec
+ - decoder timing: 1343.77 sec
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+88.83	85.07	86.91	91.92	88.16	90.00
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+87.89	85.74	86.80	90.99	88.89	89.92
+
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/ftb.connected.conll
+Evaluation with algorithm: simple
+ - precision: 89.20
+ - recall: 85.48
+ - f1: 87.30
+ - exact match: 20.01
+ - network timing: 45.41 sec
+ - decoder timing: 16.01 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 88.32
+ - recall: 86.14
+ - f1: 87.21
+ - exact match: 20.97
+ - network timing: 46.69 sec
+ - decoder timing: 1332.48 sec
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+89.20	85.48	87.30	92.32	88.60	90.42
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+88.32	86.13	87.21	91.43	89.30	90.35
+
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/sequoia.full.conll
+Evaluation with algorithm: simple
+ - precision: 91.48
+ - recall: 88.02
+ - f1: 89.72
+ - exact match: 36.50
+ - network timing: 7.04 sec
+ - decoder timing: 1.74 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 90.78
+ - recall: 88.61
+ - f1: 89.68
+ - exact match: 38.25
+ - network timing: 6.55 sec
+ - decoder timing: 14.58 sec
+
+Dataset:  /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/sequoia.connected.conll
+Evaluation with algorithm: simple
+ - precision: 91.48
+ - recall: 88.02
+ - f1: 89.72
+ - exact match: 36.50
+ - network timing: 6.97 sec
+ - decoder timing: 1.77 sec
+
+Evaluation with algorithm: structured_no_node
+ - precision: 90.78
+ - recall: 88.61
+ - f1: 89.68
+ - exact match: 38.25
+ - network timing: 6.57 sec
+ - decoder timing: 15.05 sec
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+91.48	88.01	89.71	94.49	90.96	92.69
+
+AllScorer
+LP	LR	LF	UP	UR	UF
+90.78	88.60	89.68	93.80	91.60	92.69
+

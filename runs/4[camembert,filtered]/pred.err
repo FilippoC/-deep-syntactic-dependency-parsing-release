@@ -1,0 +1,38 @@
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/full.full.conll
+Converting data
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/full.connected.conll
+Converting data
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/ftb.full.conll
+Converting data
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/ftb.connected.conll
+Converting data
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/sequoia.full.conll
+Converting data
+usage: TreebankAnalytics v.1.1.1 eval [-h] -c FILE -g FILE
+                                      [-f {sagae,sdp,sequoia}]
+                                      [-t {csv,latex}] -s FILE
+                                      [-F {sagae,sdp,sequoia}]
+TreebankAnalytics v.1.1.1 eval: error: argument -s/--system: invalid functools.partial(<function test_file at 0x7f530a05d050>, 'r') value: 'pred.sequoia.full.conll.simple'
+usage: TreebankAnalytics v.1.1.1 eval [-h] -c FILE -g FILE
+                                      [-f {sagae,sdp,sequoia}]
+                                      [-t {csv,latex}] -s FILE
+                                      [-F {sagae,sdp,sequoia}]
+TreebankAnalytics v.1.1.1 eval: error: argument -s/--system: invalid functools.partial(<function test_file at 0x7fc417d7f050>, 'r') value: 'pred.sequoia.full.conll.structured_no_node'
+Loading network from path: model
+Reading dev data located at: /mnt/beegfs/home/corro/repos/deep-syntactic-dependency-parsing-wip/data/sequoia/test/sequoia.connected.conll
+Converting data
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+/mnt/beegfs/home/corro/anaconda3/lib/python3.7/site-packages/TreebankAnalytics-v.1.1.1-py3.7.egg/treebankanalytics/main.py:31: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
